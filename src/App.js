@@ -2,7 +2,6 @@ import { useState } from 'react';
 import './App.css';
 
 function App() {
-  const timeid = document.getElementById("time")
   let myInterval = setInterval(myTime, 1000)
   const [time, setTime] = useState("12:00:00 AM");
   const [date, setDate] = useState("01/01/2001")
